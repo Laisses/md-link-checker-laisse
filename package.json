@@ -5,18 +5,19 @@
   "keywords": ["markdown", "URL"],
   "main": "index.js",
   "bin": {
-    "<md_link_checker_laisse>": "./cli.js",
-  },
-  "preferGlobal": false,  
+    "<md_link_checker_laisse>": "./cli.js"
+  },  
   "scripts": {
     "test": "jest",
     "cli": "node cli.js ./arquivos/texto1.md"
   },
   "repository": {
     "type": "git",
+    "url": "https://github.com/Laisses/md-link-checker-laisse"
   },
-  "author": "Laisse Lima",
-  "license": "ISC",
+  "author": "Laisse Lima <laisse@gmail.com>",
+  "bugs": "https://github.com/Laisses/md-link-checker-laisse/issues",
+  "license": "AGPL-3.0-or-later",
   "dependencies": {
     "chalk": "^4.1.2",
     "node-fetch": "^3.0.0"
