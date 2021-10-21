@@ -1,0 +1,27 @@
+{
+  "name": "md-link-checker-laisse",
+  "version": "1.0.0",
+  "description": "Biblioteca em Node.js para verificar a existência de links quebrados em arquivos Markdown.",
+  "keywords": ["markdown", "URL"],
+  "main": "index.js",
+  "bin": {
+    "<md_link_checker_laisse>": "./cli.js",
+  },
+  "preferGlobal": false,  
+  "scripts": {
+    "test": "jest",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "repository": {
+    "type": "git",
+  },
+  "author": "Laisse Lima",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
